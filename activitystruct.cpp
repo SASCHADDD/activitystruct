@@ -8,4 +8,9 @@ struct mahasiswa
     string alamat;
     string umur;
 };
-    
+ 
+   int main (){
+        mahasiswa mhs;
+        cout <<"Nomor Mahasiswa"
+        cin >> mhs.nim;
+    }
