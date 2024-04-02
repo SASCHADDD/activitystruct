@@ -12,7 +12,7 @@ struct mahasiswa
     string nim;
     string nama;
     DetailAlamat alamat;
-    int umur;
+    string umur;
 };
 
     int main (){
@@ -36,7 +36,7 @@ struct mahasiswa
             cout <<"\n NIM :"<< mhs.nim;
             cout <<"\n Nama :"<< mhs.nama;
             cout <<"\n Alamat :";
-            cout <<"\n Desa :"<< mhs.alamat.desa;
-            cout <<"\n Kota :"<< mhs.alamat.kota;
+            cout <<"\n \t Desa :"<< mhs.alamat.desa;
+            cout <<"\n \t Kota :"<< mhs.alamat.kota;
             cout <<"\n Umur :"<< mhs.umur;
     }
