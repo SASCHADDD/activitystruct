@@ -22,12 +22,21 @@ struct mahasiswa
         cout <<"Nama Mahasiswa :";
         cin >> mhs.nama;
 
-        cout <<"Alamat Mahasiswa :";
+        cout <<"Alamat Mahasiswa :"<<endl;
         cout <<"\t Nama Desa : ";
         cin >> mhs.alamat.desa;
         cout << "\t Nama Kota : ";
         cin >> mhs.alamat.kota;
 
-         cout <<"Umur Mahasiswa :";
+        cout <<"Umur Mahasiswa :";
         cin >> mhs.umur;
+
+
+            cout<<endl; 
+            cout <<"\n NIM :"<< mhs.nim;
+            cout <<"\n Nama :"<< mhs.nama;
+            cout <<"\n Alamat :";
+            cout <<"\n Desa :"<< mhs.alamat.desa;
+            cout <<"\n Kota :"<< mhs.alamat.kota;
+            cout <<"\n Umur :"<< mhs.umur;
     }
