@@ -12,7 +12,7 @@ struct mahasiswa
     string nim;
     string nama;
     DetailAlamat alamat;
-    string umur;
+    int umur;
 };
 
     int main (){
